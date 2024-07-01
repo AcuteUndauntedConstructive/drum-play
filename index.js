@@ -62,6 +62,8 @@ function makeSound(key){
 }
 
 // to give buttons a timer
+
+
 function buttonAnimation(currentKey){
     var activeButton = document.querySelector("." + currentKey);
     activeButton.classList.add("pressed");
